@@ -1,8 +1,4 @@
-#ipe.input is a data listing
-#ipe.input$event.time: observed time (min(T,C))
-#ipe.input$censor.ind: censoring indicator
-#ipe.input$switch.time: crossover time 
-#ipe.input$switch.ind: crossover indicator
+#Jin Zhang & Cong Chen, 2015
 
 IPE_BW <- function(ipe.input, max.iter=200, param.conv=1e-4, distr="weibull",recensor=1){
   ##initialize the output
